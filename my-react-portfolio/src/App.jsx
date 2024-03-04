@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import Nav from './components/Nav'
+import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer'
 
-import './App.css'
 
 function App() {
 
-  return(<Nav/>)
+  return(<PortfolioContainer/>)
   
 }
 

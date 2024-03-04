@@ -27,3 +27,15 @@ header {
 .menu ul li a:hover {
     background-color: #555; /* Background color on hover */
 }
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column; /* Display items vertically */
+        align-items: center; /* Center items vertically */
+    }
+
+    .menu ul li {
+        display: block; /* Display list items as blocks */
+        margin: 10px 0; /* Adjust margin between items */
+    }
+}
