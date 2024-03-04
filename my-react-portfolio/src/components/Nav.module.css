@@ -1,0 +1,29 @@
+header {
+    background-color:lightslategray; /* Background color of the header */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.menu {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+
+.menu ul {
+    list-style-type: none; /* Removes the default list styling */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline; /* Displays list items horizontally */
+    margin: 0 10px; /* Adjust margin between items as needed */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Text color */
+}
+
+.menu ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
