@@ -14,6 +14,7 @@
 }
 
 .homeText {
+    margin-right: 0;
     margin-right: 10%; 
 }
 
@@ -22,4 +23,29 @@
     height: auto;
     display: block;
     margin: 0 auto; 
+}
+
+.span{
+    color:cornflowerblue;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .homeText {
+        margin-bottom: 10px; 
+        }
+
+    .image img {
+        max-width: 150px; 
+    }
 }

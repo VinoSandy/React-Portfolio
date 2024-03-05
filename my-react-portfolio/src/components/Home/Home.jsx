@@ -14,8 +14,8 @@ function Home(){
 
            <div className={styles.homeText}>
             <p> Hi there!, I 'm </p>
-            <h3 >Vinothini Santhosh</h3>
-            <p> A Front End Web Developer passionate about creating<br/>
+            <h3><span className={styles.span}>Vinothini</span> Santhosh</h3>
+            <p><span className={styles.span}> A Front End Web Developer</span> passionate about creating<br/>
                 intractive web applications </p>
            </div>
            
