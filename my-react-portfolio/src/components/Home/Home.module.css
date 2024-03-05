@@ -1,8 +1,25 @@
 
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.homeText {
+    margin-right: 10%; 
+}
+
+.image img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
 }

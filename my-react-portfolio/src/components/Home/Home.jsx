@@ -7,15 +7,18 @@ function Home(){
 
     return(<section className={styles.content}>
            <div className={styles.container}>
+
+           <div className={styles.image}>
+            <img src={ProfileImage} alt="Profile" ></img>
+           </div>
+
            <div className={styles.homeText}>
             <p> Hi there!, I 'm </p>
             <h3 >Vinothini Santhosh</h3>
             <p> A Front End Web Developer passionate about creating<br/>
                 intractive web applications </p>
            </div>
-           <div className={styles.image}>
-            <img src={ProfileImage}></img>
-           </div>
+           
            </div>
           </section>)
 }
