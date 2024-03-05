@@ -5,5 +5,9 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    color: cornflowerblue;
+    color: black;
+}
+
+.span{
+    color:cornflowerblue;
 }

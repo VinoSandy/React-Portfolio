@@ -5,7 +5,7 @@ function Footer(){
 
 return (<footer className={styles.footer}>
         <p>
-         By Vinothini Santhosh 💛 {new Date().getFullYear()} 
+         Copyright & copy; {new Date().getFullYear()} <span className={styles.span}>Vinothini Santhosh</span>
         </p> 
        </footer>)
 
