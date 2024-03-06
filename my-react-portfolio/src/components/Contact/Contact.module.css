@@ -2,6 +2,16 @@
     text-align: center;
 }
 
+.contact a{
+    text-decoration: none;
+}
+
+.contact img{
+    width: 16px; 
+    height: auto;
+
+}
+
 .span{
     color: cornflowerblue;
 }
@@ -21,3 +31,14 @@
 .imgIcon a:hover {
     transform: translateY(-3px);
   }
+
+  @media screen and (max-width: 600px) {
+    .imgIcon {
+        flex-direction: column;
+        margin-top: 10px; 
+    }
+
+    .imgIcon img {
+        width: 40px; 
+    }
+}

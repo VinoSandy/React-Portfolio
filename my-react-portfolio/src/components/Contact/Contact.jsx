@@ -18,7 +18,8 @@ function Contact(){
         <div className={styles.contact}>
             <h3><span className={styles.span}>Contact Me</span></h3>
             <p>santhoshkumarvinothini@gmail.com</p>
-            <a href="src/assets/Vinothini Santhosh.pdf" download="resume"><span className={styles.span}>Resume</span></a>
+            <a href="src/assets/Vinothini Santhosh.pdf" download="resume"><span className={styles.span}>Resume</span>
+            <img src="src/assets/file.png"></img></a>
         </div>
         <div className={styles.imgIcon}>
         <a href="mailto:santhoshkumarvinothini@gmail.com" target="_blank">
