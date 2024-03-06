@@ -29,6 +29,8 @@
     justify-content: center;
   }
   
+ 
+  
   .projectTitle {
     font-weight: bold;
     text-align: center;
@@ -45,12 +47,22 @@
     text-align: center;
        
   }
-  
+
+   
   .projectLinks a {
-    margin-right: 5px;
+    margin-top: 5px;
     text-decoration: none;
     color: cornflowerblue;
   }
+
+  .linkSpacer {
+    margin-right: 10px; 
+  }
+
+  .projectLinks a:hover {
+    color: darkmagenta; 
+    }
+
   @media screen and (max-width: 630px) {
     .card {
       width: 70%; 
