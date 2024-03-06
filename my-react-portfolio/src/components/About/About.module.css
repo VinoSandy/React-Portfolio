@@ -29,3 +29,9 @@
     border: 1px solid cornflowerblue; 
     padding: 5px; 
 }
+
+@media screen and (max-width: 768px) {
+    .table {
+        width: 100%; 
+    }
+}
