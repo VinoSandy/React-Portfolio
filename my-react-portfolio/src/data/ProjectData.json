@@ -2,42 +2,42 @@
 {
     "id": 1,
     "title": "JavaScript Quiz App",
-    "imgUrl":"../../assets/quizJs.png",
+    "imgUrl":"src/assets/quizJs.png",
     "appLink":"https://vinosandy.github.io/Quiz-Master-JS/",
     "Repo":"https://github.com/VinoSandy/Quiz-Master-JS.git"
 },
 {
     "id": 2,
     "title": "Weather Forecaster",
-    "imgUrl":"../../assets/Weather.png",
+    "imgUrl":"src/assets/Weather.png",
     "appLink":"https://vinosandy.github.io/Weather-Forecaster/",
     "Repo":"https://github.com/VinoSandy/Weather-Forecaster.git"
 },
 {
     "id": 3,
     "title": "WorkDay Scheduler",
-    "imgUrl":"../../assets/WorkDay.png",
+    "imgUrl":"src/assets/WorkDay.png",
     "appLink":"https://vinosandy.github.io/WorkDay-Planner/",
     "Repo":"https://github.com/VinoSandy/WorkDay-Planner.git"
 },
 {
     "id": 4,
     "title": "City Explorer",
-    "imgUrl":"../../assets/CityExplorer.png",
+    "imgUrl":"src/assets/CityExplorer.png",
     "appLink":"https://hazalsigic.github.io/project-1/",
     "Repo":"https://github.com/hazalsigic/project-1"
 },
 {
     "id": 5,
     "title": "Team Profile Generator",
-    "imgUrl":"../../assets/TeamProfile.png",
+    "imgUrl":"src/assets/TeamProfile.png",
     "appLink":"https://github.com/VinoSandy/Team-Profile-Generator.git",
     "Repo":"https://github.com/VinoSandy/Team-Profile-Generator.git"
 },
 {
     "id": 6,
     "title": "ReadMe Generator",
-    "imgUrl":"../../assets/ReadMeGenerator.png",
+    "imgUrl":"src/assets/ReadMeGenerator.png",
     "appLink":" https://github.com/VinoSandy/Readme-Generator.git",
     "Repo":" https://github.com/VinoSandy/Readme-Generator.git"
 }

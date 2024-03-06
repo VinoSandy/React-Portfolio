@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: calc(33.33% - 20px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  .projectTitle {
+    font-weight: bold;
+  }
+    
+  .projectImage {
+    width: 100%;
+    max-height: 200px; 
+    object-fit: cover;
+  }
+  .projectLinks {
+    margin-top: 10px;
+  }
+  .projectLinks a {
+    margin-right: 10px;
+  }
+    
+  
+  
