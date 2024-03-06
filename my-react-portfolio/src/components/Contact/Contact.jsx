@@ -18,6 +18,7 @@ function Contact(){
         <div className={styles.contact}>
             <h3><span className={styles.span}>Contact Me</span></h3>
             <p>santhoshkumarvinothini@gmail.com</p>
+            <a href="src/assets/Vinothini Santhosh.pdf" download="resume"><span className={styles.span}>Resume</span></a>
         </div>
         <div className={styles.imgIcon}>
         <a href="mailto:santhoshkumarvinothini@gmail.com" target="_blank">
@@ -26,7 +27,7 @@ function Contact(){
         <a href="https://github.com/VinoSandy" target="_blank">
         <img src="src/assets/github.png"></img>
         </a>
-        <a href="" target="_blank">
+        <a href="https://linkedin.com/in/vinothini-santhosh-0b1a6727 " target="_blank">
         <img src="src/assets/linkedin.png"></img>
         </a>
 
