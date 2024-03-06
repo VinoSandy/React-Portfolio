@@ -1,0 +1,31 @@
+.content{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.span{
+    color:cornflowerblue;
+}
+
+.table {
+    border-collapse: collapse; 
+    width: 50%; 
+}
+
+.table td, .table th {
+    border: 1px solid cornflowerblue; 
+    padding: 5px; 
+}
