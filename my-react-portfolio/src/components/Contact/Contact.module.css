@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+}
+
+.span{
+    color: cornflowerblue;
+}
+
+.imgIcon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.imgIcon img{
+    width: 30px; 
+    height: auto;
+}
+
+.imgIcon a:hover {
+    transform: translateY(-3px);
+  }
