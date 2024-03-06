@@ -15,6 +15,7 @@ function About(){
                </div>
                 <div className={styles.skill}>
                 <h3><span className={styles.span}>Skills</span></h3>
+                
                <table className={styles.table}>
        
                  <tr>
@@ -24,12 +25,12 @@ function About(){
                      Node + npm,REST API's</td>
                  </tr>
                  <tr>
-                 <td>Testing FrameWork</td>
-                 <td>Jest</td>
+                 <td>Test Libraries</td>
+                 <td>Jest, Vitest+RTL </td>
                  </tr>
                  <tr>
                  <td>Version Control and Deployment</td>
-                 <td>GIT</td>
+                 <td>GIT, Netlify</td>
                  </tr>
                  </table>
                </div>
