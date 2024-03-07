@@ -18,6 +18,8 @@
 
  ![Demo](my-react-portfolio\src\assets\React-Portfolio.gif)    
 
+ Portfolio Demo inside src/assets/React-Portfolio.gif
+
 * In the above demo, when the user clicks on skill user gets navigated to skill page, respectively to project->project page and contact->contact page.
  All the pages are rendered dynamically.
 * When the user in project page clicks on the App it navigates to respective deployed application and to the respective repository.
