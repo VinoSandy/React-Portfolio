@@ -1,7 +1,7 @@
 # React-Portfolio
 
 ## Description:
-   React-Portfolio show case my skills, projects i have built and about me. The portfolio is built using React.The portfolio has the following details ,
+   React-Portfolio show case my skills, projects i have built and about me. The portfolio is built using React and React-Router used for navigation.The portfolio has the following details ,
     * [ ]  Name
     * [ ] Links to my:
     * [ ] GitHub Profile
@@ -25,8 +25,16 @@
 * when the user clicks on git icon,email icon,linkedin icon user gets navigated respectfully. 
 
 
+## Git Repo Url:
+   https://github.com/VinoSandy/React-Portfolio.git
 
-
+## Reference used:
+   
+  https://vitejs.dev/guide/
+  https://www.w3schools.com/react/react_router.asp
+  https://stackoverflow.com/questions/6794255/html-download-a-pdf-file-instead-of-opening-them-in-browser-when-clicked
+  https://react.dev/learn
   
+
 
  
