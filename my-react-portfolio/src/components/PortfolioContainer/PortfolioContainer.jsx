@@ -1,5 +1,6 @@
 
 import React , {useState} from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Nav from "../NavBar/Nav";
 import Home from "../Home/Home";
@@ -9,7 +10,7 @@ import Contact from "../Contact/Contact";
 
 
 function PortfolioContainer(){
- 
+ /*
     const [currentPage, setCurrentPage] = useState('Home');
 
     const handlePageChange = (page) => {
@@ -33,14 +34,18 @@ function PortfolioContainer(){
 
     }
     
-
-return(<div>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} ></Nav>
-        {renderCurrentPage()}
-
-      </div>)
-
-
+*/
+return(<Router>
+       <div>
+       <Nav/>
+       <Routes>
+       <Route path="/" element={<Home/>} />
+       <Route path="/about" element={<About/>} />
+       <Route path="/projects" element={<Projects/>} />
+       <Route path="/contact" element={<Contact/>} />
+       </Routes>
+       </div>
+      </Router>)
 }
 
 export default PortfolioContainer;
