@@ -1,5 +1,10 @@
 import React from "react";
-import styles from "./Contact.module.css"
+import styles from "./Contact.module.css";
+import resume from "../../assets/Vinothini Santhosh.pdf";
+import resumeIcon from "../../assets/file.png"
+import mailIcon from "../../assets/email.png";
+import gitIcon from "../../assets/github.png";
+import linkIcon from "../../assets/linkedin.png";
 
 
 
@@ -18,18 +23,18 @@ function Contact(){
         <div className={styles.contact}>
             <h3><span className={styles.span}>Contact Me</span></h3>
             <p>santhoshkumarvinothini@gmail.com</p>
-            <a href="src/assets/Vinothini Santhosh.pdf" download="resume"><span className={styles.span}>Resume</span>
-            <img src="src/assets/file.png"></img></a>
+            <a href={resume} download="resume"><span className={styles.span}>Resume</span>
+            <img src={resumeIcon}></img></a>
         </div>
         <div className={styles.imgIcon}>
         <a href="mailto:santhoshkumarvinothini@gmail.com" target="_blank">
-        <img src="src/assets/email.png"></img>
+        <img src={mailIcon}></img>
         </a>
         <a href="https://github.com/VinoSandy" target="_blank">
-        <img src="src/assets/github.png"></img>
+        <img src={gitIcon}></img>
         </a>
         <a href="https://linkedin.com/in/vinothini-santhosh-0b1a6727 " target="_blank">
-        <img src="src/assets/linkedin.png"></img>
+        <img src={linkIcon}></img>
         </a>
 
         </div>
