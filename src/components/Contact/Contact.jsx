@@ -6,7 +6,8 @@ import mailIcon from "../../assets/email.png";
 import gitIcon from "../../assets/github.png";
 import linkIcon from "../../assets/linkedin.png";
 
-
+/*Contact Page */
+/*Links are embedded with icons and Resume Pdf can be downloaded when user clicks on the downloadicon or resume. */
 
 function Contact(){
 

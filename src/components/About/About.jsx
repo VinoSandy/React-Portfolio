@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./About.module.css"
 
+//About Page
 function About(){
+    
 
     return (<section>
             <div className={styles.content}>

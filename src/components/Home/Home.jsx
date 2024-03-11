@@ -2,6 +2,7 @@ import React from "react";
 import ProfileImage from "../../assets/profile_Img.png"
 import styles from "./Home.module.css"
 
+//Home Page
 function Home(){
 
 

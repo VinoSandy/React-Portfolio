@@ -7,7 +7,7 @@ import styles from  "./Projects.module.css";
 
 
 function Projects({key,title, appLink,repo,image }){
-
+/*Creates project Card for each projectdata */
     return ( 
         <section className={styles.container}>
           <div className={styles.card} key={key}>

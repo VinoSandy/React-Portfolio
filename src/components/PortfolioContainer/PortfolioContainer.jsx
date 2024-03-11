@@ -8,7 +8,7 @@ import About from "../About/About";
 import Projects from "../Projects/ProjectContent";
 import Contact from "../Contact/Contact";
 
-
+/*Router used to dynamically render pages */
 function PortfolioContainer(){
  
 return(<Router>

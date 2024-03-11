@@ -8,6 +8,8 @@ import workday from "../../assets/WorkDay.png";
 import ReadMe from "../../assets/ReadMeGenerator.png";
 import Team from "../../assets/TeamProfile.png";
 
+
+
 const imageMap={"JavaScript Quiz App":quizImg,
                 "Weather Forecaster":weather,
                 "WorkDay Scheduler":workday,
@@ -17,7 +19,8 @@ const imageMap={"JavaScript Quiz App":quizImg,
                   }
 
 
-
+/*Dynamically renderes card element from Projects and 
+generates projectcard using data from projectdata json file */
 function ProjectContent() {
   return (
     <div>
