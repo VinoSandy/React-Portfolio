@@ -23,7 +23,8 @@
   ![ProjectPage](./src/assets/projectscreen.png)
  ### Contact Page:
   ![ContactPage](./src/assets/contactscreen.png)
-  
+ ### Mobile Responsive:
+  ![mobile](./src/assets/MobileScreen.png) 
 
 * In the above screenshots describes, when the user clicks on skill user gets navigated to skill page, respectively to project->project page and contact->contact page.
  All the pages are rendered dynamically.
