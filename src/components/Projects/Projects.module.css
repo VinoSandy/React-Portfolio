@@ -1,70 +1,73 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card {
-    border: 0px solid #ccc;
-    margin: 15px;
-    width: calc(33.33% - 20px); 
-    background-color: white;
-    display: flex;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.08);
-    box-shadow: 0px 0px 15px cornflowerblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px; /* Set a maximum width to limit the number of columns */
+  margin: 0 auto; /* Center the container */
+}
+
+.card {
+  border: 0px solid #ccc;
+  margin: 15px;
+  width: calc(50% - 30px); /* Each card takes 50% of the container width */
+  max-width: calc(50% - 30px); /* Set a maximum width for responsiveness */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0px 15px cornflowerblue;
 }
 
 .card:hover .content {
-    background: linear-gradient(to right, rgb(211, 202, 202)); 
-  }
-  .content {
-    padding: 20px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
- 
-  
-  .projectTitle {
-    font-weight: bold;
-    text-align: center;
-    color: cornflowerblue;
-  }
-  
-  .projectImage {
-    max-width: 150px; 
-    height: auto;
-    margin-right: 20px;
-  }
-  .projectLinks {
-    margin-top: 2px;
-    text-align: center;
-       
-  }
+  background: linear-gradient(to right, rgb(211, 202, 202));
+}
 
-   
-  .projectLinks a {
-    margin-top: 5px;
-    text-decoration: none;
-    color: cornflowerblue;
+.content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectTitle {
+  font-weight: bold;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.projectImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.projectLinks {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.projectLinks a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.linkSpacer {
+  margin: 0 10px;
+}
+
+.projectLinks a:hover {
+  color: darkmagenta;
+}
+
+@media screen and (max-width: 630px) {
+  .card {
+    width: 70%;
+    max-width: 70%;
   }
-
-  .linkSpacer {
-    margin-right: 10px; 
-  }
-
-  .projectLinks a:hover {
-    color: darkmagenta; 
-    }
-
-  @media screen and (max-width: 630px) {
-    .card {
-      width: 70%; 
-    }
 }

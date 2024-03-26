@@ -1,22 +1,24 @@
 import React from "react";
 import ProjectData from "../../data/ProjectData.json";
 import Projects from "./Projects";
+import edicatation from "../../assets/Edicatation.png";
 import quizImg from "../../assets/quizJs.png";
 import cityImage from "../../assets/CityExplorer.png";
 import weather from "../../assets/Weather.png";
 import workday from "../../assets/WorkDay.png";
 import ReadMe from "../../assets/ReadMeGenerator.png";
-import Team from "../../assets/TeamProfile.png";
 
 
 
-const imageMap={"JavaScript Quiz App":quizImg,
-                "Weather Forecaster":weather,
-                "WorkDay Scheduler":workday,
-                 "City Explorer":cityImage,
-                 "Team Profile Generator":Team,                 
+
+
+const imageMap={ "Edicatation":edicatation,
+                 "JavaScript Quiz App":quizImg,
+                 "Weather Forecaster":weather,
+                 "WorkDay Scheduler":workday,
+                 "City Explorer":cityImage,                               
                  "ReadMe Generator":ReadMe,
-                  }
+               }
 
 
 /*Dynamically renderes card element from Projects and 

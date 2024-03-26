@@ -1,39 +1,42 @@
 [
+    {
+        "id": 1,
+        "title": "Edicatation",
+        "imgUrl":"src/assets/Edicatation.png",
+        "appLink":"https://edicatation.netlify.app/",
+        "Repo":"https://github.com/mdtoy-dev/Edicatation.git"
+    },
+
+    {
+        "id": 2,
+        "title": "City Explorer",
+        "imgUrl":"src/assets/CityExplorer.png",
+        "appLink":"https://hazalsigic.github.io/project-1/",
+        "Repo":"https://github.com/hazalsigic/project-1"
+    },
+
 {
-    "id": 1,
+    "id": 3,
     "title": "JavaScript Quiz App",
     "imgUrl":"src/assets/quizJs.png",
     "appLink":"https://vinosandy.github.io/Quiz-Master-JS/",
     "Repo":"https://github.com/VinoSandy/Quiz-Master-JS.git"
 },
 {
-    "id": 2,
+    "id": 4,
     "title": "Weather Forecaster",
     "imgUrl":"src/assets/Weather.png",
     "appLink":"https://vinosandy.github.io/Weather-Forecaster/",
     "Repo":"https://github.com/VinoSandy/Weather-Forecaster.git"
 },
 {
-    "id": 3,
+    "id": 5,
     "title": "WorkDay Scheduler",
     "imgUrl":"src/assets/WorkDay.png",
     "appLink":"https://vinosandy.github.io/WorkDay-Planner/",
     "Repo":"https://github.com/VinoSandy/WorkDay-Planner.git"
 },
-{
-    "id": 4,
-    "title": "City Explorer",
-    "imgUrl":"src/assets/CityExplorer.png",
-    "appLink":"https://hazalsigic.github.io/project-1/",
-    "Repo":"https://github.com/hazalsigic/project-1"
-},
-{
-    "id": 5,
-    "title": "Team Profile Generator",
-    "imgUrl":"src/assets/TeamProfile.png",
-    "appLink":"https://github.com/VinoSandy/Team-Profile-Generator.git",
-    "Repo":"https://github.com/VinoSandy/Team-Profile-Generator.git"
-},
+
 {
     "id": 6,
     "title": "ReadMe Generator",
@@ -41,7 +44,6 @@
     "appLink":" https://github.com/VinoSandy/Readme-Generator.git",
     "Repo":" https://github.com/VinoSandy/Readme-Generator.git"
 }
-
 
 
 ]

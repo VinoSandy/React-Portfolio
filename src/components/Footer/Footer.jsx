@@ -5,7 +5,7 @@ function Footer(){
 /*Footer created to display with year */
 return (<footer className={styles.footer}>
         <p>
-         Copyright & copy; {new Date().getFullYear()} <span className={styles.span}>Vinothini Santhosh</span>
+        &copy; Copyright:{new Date().getFullYear()} <span className={styles.span}>Vinothini Santhosh</span>
         </p> 
        </footer>)
 
